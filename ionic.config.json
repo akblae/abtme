@@ -1,0 +1,7 @@
+{
+  "name": "abtme",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
