@@ -1,1 +1,32 @@
+ion-toolbar, ion-content {
+    --background: #f8f8f8;
+}
 
+ion-title {
+    font-weight: 600;
+}
+
+ion-tab-bar {
+    --border: none;
+    --background: #ffffff;
+    margin: 16px 20px;
+    border-radius: 14px;
+    box-shadow: 
+    3px 6px 10px 3px rgba(0, 0, 0, 0.04),
+        0px 3px 6px 0px rgba(0, 0, 0, 0.02);
+}
+  
+  ion-tab-button {
+    --color: #D5AD92;
+    --color-selected: #7F5C45;
+  
+    &::before {
+      background-color: transparent;
+      display: block;
+      content: "";
+      margin: 0 auto;
+      width: 20px;
+      height: 2px;
+    }
+  
+  }
