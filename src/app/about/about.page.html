@@ -11,26 +11,65 @@
 
   <div class="highlights">
 
-    <ion-slides [options]="option" class="highlights_photos">
+    <ion-slides [options]="option" class="highlight_photos">
    
-    
+    <ion-slide>
       <ion-card >
         <img src="assets/images/ak4.jpg"/>
       </ion-card>
-    </ion-slides>
+    </ion-slide>
 
-    <ion-slides>
+    <ion-slide>
       <ion-card >
         <img src="assets/images/ak2.jpg"/>
       </ion-card>
-    </ion-slides>
+    </ion-slide>
 
-    <ion-slides>
-      <ion-card >
+    <ion-slide>
+      <ion-card>
         <img src="assets/images/ak3.jpg"/>
       </ion-card>
-    </ion-slides>
-    
-    </ion-slides>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card >
+        <img src="assets/images/ak.jpg"/>
+      </ion-card>
+    </ion-slide>
+  
+  </ion-slides>  
+  
+</div>
+
+  <div>
+
+  <ion-list>
+
+    <ion-icon class="personal" slot="start" name="person-circle-outline"></ion-icon>
+    <ion-label class="personal_text">Personal</ion-label>
+  
+    <ion-item lines="none" class="name" color="none">
+      <ion-icon class="name_icon" slot="start" name="person-outline"></ion-icon>
+      <ion-label class="name_text">Ana Karl Tatlonghari</ion-label>
+    </ion-item>
+
+    <ion-item lines="none" class="add" color="none">
+      <ion-icon class="add_icon" slot="start" name="location-outline"></ion-icon>
+      <ion-label class="add_text" >Pallocan West, Batangas City</ion-label>
+    </ion-item>
+
+    <ion-item lines="none" class="bday" color="none">
+      <ion-icon class="bday_icon" slot="start" name="calendar-clear-outline"></ion-icon>
+      <ion-label class="bday_text">September 6, 2000</ion-label>
+    </ion-item>
+
+    <ion-item lines="none" class="con" color="none">
+      <ion-icon class="con_icon" slot="start" name="call-outline"></ion-icon>
+      <ion-label class="con_text">09166865227</ion-label>
+    </ion-item>
+  </ion-list>
+
   </div>
+
+
 </ion-content>

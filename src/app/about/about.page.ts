@@ -10,10 +10,10 @@ export class AboutPage {
   constructor() {}
 
   option = {
-    slidesPerView: 1.5, 
+    slidesPerView: 3, 
     centeredSlides: false,
     loop: true,
-    spaceBetween: 7,
+    spaceBetween: 1,
     //autoplay: true,
 
   }
