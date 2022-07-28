@@ -234,3 +234,17 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+// Fonts
+
+@import url(https://fonts.googleapis.com/css2?family=Ovo&display=swap);
+$font-family-base: "Ovo", serif;
+$font-family-ios-base: 'Ovo';
+$font-family-md-base: 'Ovo';
+$font-family-wp-base: 'Ovo';
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+$font-family-base: "Poppins", serif;
+$font-family-ios-base: 'Poppins';
+$font-family-md-base: 'Poppins';
+$font-family-wp-base: 'Poppins';
