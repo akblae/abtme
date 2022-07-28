@@ -46,7 +46,7 @@ ion-card {
 }
 
 .swiper-slide-active {
-    transform: scale(1.05, 1.05);  
+    transform: scale(1.01, 1.01);  
 
     ion-card {
         img {
@@ -59,4 +59,89 @@ ion-card {
     transition: 400ms all ease-in-out;
 }
 
+.personal {
+    
+    font-size: 20px;
+    padding-left: 10px;
+}
 
+.personal_text {
+    font-family: 'Ovo';
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+ion-item { 
+    color: #ead9ce;
+    background-color: none;
+    border-radius: 9px;
+    margin-left: 40px; 
+    margin-right: 40px;
+    margin-top: 10px;
+    
+
+
+}
+
+    .name {
+        background-color: #7F5C45;
+        
+    }
+
+    .name_icon {
+        font-size: 15px;
+    }
+
+    .name_text {
+        font-family: 'Poppins';
+        font-size: 13px;
+
+    }
+
+    .add {
+        background-color: #7F5C45;
+
+    }
+
+    .add_icon {
+        font-size: 15px;
+    }
+
+    .add_text {
+        font-family: 'Poppins';
+        font-size: 13px;
+
+    }
+
+    .bday {
+        background-color: #7F5C45;
+
+    }
+
+    .bday_icon {
+        font-size: 15px;
+    }
+
+    .bday_text {
+        font-family: 'Poppins';
+        font-size: 13px;
+
+    }
+
+    .con {
+        background-color: #7F5C45;
+
+    }
+
+    .con_icon {
+        font-size: 15px;
+    }
+
+    .con_text {
+        font-family: 'Poppins';
+        font-size: 13px;
+
+    }
