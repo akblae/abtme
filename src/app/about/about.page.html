@@ -1,10 +1,36 @@
-<ion-content>
 
-  <div class="avatar_div" [style.backgroundImage]="'url(/assets/images/header.png)'">
+<ion-content [fullscreen]="true">
+  <div class="header" [style.backgroundImage]="'url(/assets/images/header.png)'">
   </div>
-  
-</ion-content>
 
-<ion-content>
-  <ion-label class="username">nkalle</ion-label>
+  <div class="profile">
+    <ion-label class="username">ana karl</ion-label>
+    <ion-label class="bio">ashes over flowers</ion-label>
+    <ion-label class="desc">21, still not ready for life, she/her</ion-label>
+  </div>
+
+  <div class="highlights">
+
+    <ion-slides [options]="option" class="highlights_photos">
+   
+    
+      <ion-card >
+        <img src="assets/images/ak4.jpg"/>
+      </ion-card>
+    </ion-slides>
+
+    <ion-slides>
+      <ion-card >
+        <img src="assets/images/ak2.jpg"/>
+      </ion-card>
+    </ion-slides>
+
+    <ion-slides>
+      <ion-card >
+        <img src="assets/images/ak3.jpg"/>
+      </ion-card>
+    </ion-slides>
+    
+    </ion-slides>
+  </div>
 </ion-content>
