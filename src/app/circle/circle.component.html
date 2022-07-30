@@ -1,0 +1,33 @@
+<ion-slides [options]="option">
+
+ <ion-slide>
+  <ion-card>
+    <ion-card-content class="ion-text-left">
+      <ion-card-title>runawaykids</ion-card-title>
+    </ion-card-content>
+    <ion-card-header>
+      <div class="cir">
+        <ul class="nobullets "*ngFor = "let item of friends">
+          <li *ngIf="item.kind === 0">{{item.name}}</li>
+        </ul>
+      </div>
+    </ion-card-header>
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+    <ion-card-content class="ion-text-left">
+      <ion-card-title>school friends</ion-card-title>
+    </ion-card-content>
+    <ion-card-header>
+      <div class="cir">
+        <ul class="nobullets" *ngFor = "let item of friends">
+          <li *ngIf="item.kind === 1">{{item.name}}</li>
+        </ul>
+        </div>
+      </ion-card-header>
+  </ion-card>
+</ion-slide>
+
+</ion-slides>

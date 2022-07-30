@@ -6,6 +6,7 @@ import { InterestPage } from './interest.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { InterestPageRoutingModule } from './interest-routing.module';
+import { CircleComponent } from '../circle/circle.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { InterestPageRoutingModule } from './interest-routing.module';
     ExploreContainerComponentModule,
     InterestPageRoutingModule
   ],
-  declarations: [InterestPage]
+  declarations: [InterestPage, CircleComponent]
 })
 export class InterestPageModule {}
