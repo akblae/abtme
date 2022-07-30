@@ -32,6 +32,18 @@
     font-size: 10px; 
 }
 
+ion-button {
+    --background: #7F5C45;
+    --border-radius: 20px;
+    --color-activated: #ead9ce;
+    padding-left: 140px;
+    padding-top: 5px;
+    
+}
+
+
+
+
 ion-card {
     width: 100px;
     height: 100px;
@@ -59,96 +71,32 @@ ion-card {
     transition: 400ms all ease-in-out;
 }
 
-.personal {
-    
-    font-size: 20px;
-    padding-left: 10px;
-}
-
-.personal_text {
-    font-family: 'Ovo';
+.categories {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
     font-size: 15px;
-    padding-left: 10px;
-    margin-bottom: 5px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #000000;
 }
 
-
-
-ion-item { 
-    color: #ead9ce;
-    background-color: none;
-    border-radius: 9px;
-    margin-left: 40px; 
-    margin-right: 40px;
-    margin-top: 10px;
-    
-
-
+.categories_icon {
+    margin-right: 10px;
+    align-items: center;
+    font-size: 16px;
 }
 
-    .name {
-        background-color: #7F5C45;
-        
-    }
+   
 
-    .name_icon {
-        font-size: 15px;
-    }
+ion-row {
+    padding-left: 60px;
+}
 
-    .name_text {
-        font-family: 'Poppins';
-        font-size: 13px;
-
-    }
-
-    .add {
-        background-color: #7F5C45;
-
-    }
-
-    .add_icon {
-        font-size: 15px;
-    }
-
-    .add_text {
-        font-family: 'Poppins';
-        font-size: 13px;
-
-    }
-
-    .bday {
-        background-color: #7F5C45;
-
-    }
-
-    .bday_icon {
-        font-size: 15px;
-    }
-
-    .bday_text {
-        font-family: 'Poppins';
-        font-size: 13px;
-
-    }
-
-    .con {
-        background-color: #7F5C45;
-
-    }
-
-    .con_icon {
-        font-size: 15px;
-    }
-
-    .con_text {
-        font-family: 'Poppins';
-        font-size: 13px;
-
-    }
 
     .socmed {
         color: #7F5C45;
-        font-size: 25px;
-        align-self: center;
-        grid-row: auto;
+        font-size: 30px;
+        white-space: nowrap;
+        
     }

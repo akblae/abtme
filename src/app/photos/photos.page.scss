@@ -31,3 +31,41 @@
     font-family: 'Poppins';
     font-size: 10px; 
 }
+
+ion-card {
+    width: 100px;
+    height: 130px;
+    box-shadow: none;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+}
+
+.swiper-slide-active {
+    transform: scale(1.01, 1.01);  
+
+    ion-card {
+        img {
+            transform: scale(1, 1);
+        }
+    }
+}
+
+.swiper-slide {
+    transition: 400ms all ease-in-out;
+}
+
+
+.categories {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial';
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}

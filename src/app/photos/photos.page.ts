@@ -9,4 +9,15 @@ export class PhotosPage {
 
   constructor() {}
 
+  option = {
+    slidesPerView: 3, 
+    centeredSlides: false,
+    loop: true,
+    spaceBetween: 1,
+    //autoplay: true,
+
+
+  }
+
+
 }

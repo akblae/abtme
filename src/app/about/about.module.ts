@@ -6,6 +6,7 @@ import { AboutPage } from './about.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { AboutPageRoutingModule } from './about-routing.module';
+import { InfoComponent } from '../info/info.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { AboutPageRoutingModule } from './about-routing.module';
     ExploreContainerComponentModule,
     AboutPageRoutingModule
   ],
-  declarations: [AboutPage]
+  declarations: [AboutPage, InfoComponent]
 })
 export class AboutPageModule {}
