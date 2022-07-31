@@ -12,9 +12,19 @@
 
     <ion-list-header>Photos</ion-list-header>
 
-    <h1 class="categories"><b>All</b></h1>
+    
+      
+      <ion-button (click)="vw()" fill="clear">
+        <ion-label class="categories1"><b>All</b></ion-label>   
+        <ion-label class="fr" (click)="vw()">See all</ion-label>
+        <ion-icon class="fricon" slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-button>
+
+      
+   
+   
   
-    <ion-slides [options]="option" class="highlight_photos">
+    <ion-slides [options]="option">
    
     <ion-slide>
       <ion-card >
@@ -249,7 +259,7 @@
 
     <h1 class="categories"><b>Random</b></h1>
   
-    <ion-slides [options]="option" class="highlight_photos">
+    <ion-slides [options]="option">
    
     <ion-slide>
       <ion-card >

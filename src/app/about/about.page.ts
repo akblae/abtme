@@ -15,8 +15,7 @@ export class AboutPage {
     centeredSlides: false,
     loop: true,
     spaceBetween: 1,
-    //autoplay: true,
-
+  
   }
 
  

@@ -8,6 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { PhotosPageRoutingModule } from './photos-routing.module';
 
+
 @NgModule({
   imports: [
     IonicModule,

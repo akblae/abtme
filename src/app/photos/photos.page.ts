@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-photos',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PhotosPage {
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   option = {
     slidesPerView: 3, 
@@ -17,6 +18,10 @@ export class PhotosPage {
     //autoplay: true,
 
 
+  }
+
+  vw(){
+    this.router.navigate(['view'])
   }
 
 
